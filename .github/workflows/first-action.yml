@@ -10,8 +10,8 @@ jobs:
       - name: Print goodBye
         run: echo "Till we meet Again GoodBye" 
         
-      - name: Print Greetings2
-        run: touch sahan.txt
+      - name: Print goodBye
+        run: echo "Till we meet Again GoodBye 2 " 
         
       - name: Print Adding Content
         run: echo "Hi Sahan How are You" >> sahan.txt
