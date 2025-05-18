@@ -1,13 +1,12 @@
-name: First-Workflow
-# When workflow should execute (Event)
-# Work flow dispatch is a event that allow to manually trigger a  event
+name: My First Workflow
 on: workflow_dispatch
 jobs:
   first-job:
-    #runs-on define environment to run 
     runs-on: ubuntu-latest
     steps:
-      - name: Print greeting
-        run: echo "Hellow Sahan Greeting"
-      - name: Print Good Bye
-        run: echo "Good Bye Folks"
+      - name: Greet to User
+        run: echo "Hello there we are Swiss Army"
+      - name: Print GoodBye
+        run: echo " Oh ! You are Sri Lankan No Entry"
+
+
